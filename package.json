@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "npm": "22.13.0",
-    "node": "10.9.2"
+    "npm": "10.9.2",
+    "node": "22.13.0"
   },
   "dependencies": {
     "cra-template": "1.2.0",
