@@ -13,12 +13,12 @@ const App = () => {
   return (
     <Router>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" to="/">Movie Finder 2</Link>
+        <Link className="navbar-brand" to="/">Movie Finder</Link>
       </nav>
       <Routes>
-        <Route path="/" component={<Home />} />
-        <Route path="/movie/:id" component={<Movie />} />
-        <Route component={NotFound} />
+        <Route path="/" element={<Home />} />
+        <Route path="/movie/:id" element={<Movie />} />
+        <Route element={NotFound} />
       </Routes>
     </Router>
   );

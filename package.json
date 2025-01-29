@@ -3,19 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "npm": "10.9.2",
-    "node": "22.13.0"
+    "npm": "22.13.0",
+    "node": "10.9.2"
   },
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.1.3",
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,21 +29,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "web-vitals": "^4.2.4"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamesBoder/movie_finder_2_react.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jamesBoder/movie_finder_2_react/issues"
-  },
-  "homepage": "https://github.com/jamesBoder/movie_finder_2_react#readme"
+  }
 }
