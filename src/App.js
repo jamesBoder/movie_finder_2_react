@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Home from './Home';
 import Movie from './Movie';
 
@@ -15,11 +15,11 @@ const App = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to="/">Movie Finder 2</Link>
       </nav>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/movie/:id" component={Movie} />
+      <Routes>
+        <Route path="/" component={<Home />} />
+        <Route path="/movie/:id" component={<Movie />} />
         <Route component={NotFound} />
-      </Switch>
+      </Routes>
     </Router>
   );
 }
