@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Routes, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Home from './Home';
 import Movie from './Movie';
 
@@ -11,18 +11,16 @@ const NotFound = () => {
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Router>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link className="navbar-brand" to="/">Movie Finder 2</Link>
-        </nav>
-        <Routes>
-          <Route path="/" component={<Home />} />
-          <Route path="/movie/:id" component={<Movie />} />
-          <Route component={NotFound} />
-        </Routes>
-      </Router>
-    </BrowserRouter>
+    <Router>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link className="navbar-brand" to="/">Movie Finder</Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/movie/:id" element={<Movie />} />
+        <Route element={NotFound} />
+      </Routes>
+    </Router>
   );
 }
 
