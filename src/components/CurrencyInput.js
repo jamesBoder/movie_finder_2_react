@@ -19,6 +19,6 @@ const CurrencyInput = () => {
       </div>
     </div>
   )
-}
+};
 
 export default CurrencyInput;
