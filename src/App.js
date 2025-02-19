@@ -4,8 +4,7 @@ import NavBar from './components/NavBar';
 import Welcome from './components/Welcome';
 import LogIn from './components/LogIn';
 import Footer from './components/Footer';
-
-
+import CurrencyConverter from './components/CurrencyConverter';
 import './App.css';
 
 function App() {
@@ -14,6 +13,7 @@ function App() {
       <NavBar />
       <Welcome />
       <LogIn />
+      <CurrencyConverter />
       <Footer />
 
       

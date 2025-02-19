@@ -1,0 +1,41 @@
+/* CurrencyConverter.css */
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #333;
+    
+}
+
+h1{
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.input {
+   
+    border: 1px solid #ddd;
+    border-radius: .3em;
+    padding: .25em;
+    width: 13em;
+    
+}
+
+select {
+    margin-left: .5em;
+    padding: .25em;
+}
+
+.equal-sign {
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
+    
+}
+

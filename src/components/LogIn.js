@@ -4,7 +4,7 @@ const LogIn = () => {
   return (
     <div>
       <h1>Sign Up</h1>
-      <form>
+      <form className="container mt-3 mb-3 p-3 border">
         <div className="form-group">
           <label htmlFor="email">Email: </label>
           <input type="email" className="form-control" id="email" placeholder="Enter email" />

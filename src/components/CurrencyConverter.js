@@ -1,22 +1,30 @@
-import React, {Component, useState} from "react";
-import CurrencyInput from "./CurrencyInput";
+import React, { useEffect } from "react";
+import './CurrencyConverter.css';
+import CurrencyRow from "./CurrencyRow";
+
+const BASE_URL = 'https://api.apilayer.com/exchangerates_data/latest' 
 
 
-class CurrencyConverter extends React {
-  state = {
-    from: "USD",
-    to: "EUR",
-    fromAmount: 1,
-    toAmount: 0.89,
-  };
-  render() {
-    return (
-      <div className="currency-converter">
 
-      </div>
-    );
-  }
-};
+const CurrencyConverter = () => {
 
-export default CurrencyConverter; 
+  useEffect(() => {
+    fetch(BASE_URL)
+      .then(res => res.json())
+      .then(data => console.log(data));
 
+  }, []);
+
+  return (
+    <>
+      <h1>Currency Converter</h1>
+      <CurrencyRow />
+      <div className="equal-sign">=</div>
+      <CurrencyRow />
+    </>
+
+
+  );
+}
+
+export default CurrencyConverter;
