@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.de853bae.css",
-    "main.js": "/static/js/main.5eba7c42.js",
-    "static/js/373.653cf244.chunk.js": "/static/js/373.653cf244.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.de853bae.css.map": "/static/css/main.de853bae.css.map",
-    "main.5eba7c42.js.map": "/static/js/main.5eba7c42.js.map",
-    "373.653cf244.chunk.js.map": "/static/js/373.653cf244.chunk.js.map"
+    "main.css": "/jamesBoder/exchange_app_react.git/static/css/main.de853bae.css",
+    "main.js": "/jamesBoder/exchange_app_react.git/static/js/main.c4d5d1f2.js",
+    "static/js/373.653cf244.chunk.js": "/jamesBoder/exchange_app_react.git/static/js/373.653cf244.chunk.js",
+    "static/media/logo.svg": "/jamesBoder/exchange_app_react.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jamesBoder/exchange_app_react.git/index.html",
+    "main.de853bae.css.map": "/jamesBoder/exchange_app_react.git/static/css/main.de853bae.css.map",
+    "main.c4d5d1f2.js.map": "/jamesBoder/exchange_app_react.git/static/js/main.c4d5d1f2.js.map",
+    "373.653cf244.chunk.js.map": "/jamesBoder/exchange_app_react.git/static/js/373.653cf244.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de853bae.css",
-    "static/js/main.5eba7c42.js"
+    "static/js/main.c4d5d1f2.js"
   ]
 }
