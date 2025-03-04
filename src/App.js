@@ -12,16 +12,15 @@ import './App.css';
 function App() {
   return (
     
-    <div className="App">
-      <Router basename="https://github.com/jamesBoder/exchange_app_react.git">
+    <Router basename="https://github.com/jamesBoder/exchange_app_react.git">
+      <div className="App">
         <NavBar />
         <Welcome />
         <LogIn />
         <CurrencyConverter />
         <Footer />
-      </Router> 
-      
-    </div>
+      </div>
+    </Router> 
   );
 }
 
